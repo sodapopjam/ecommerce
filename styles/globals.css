@@ -103,10 +103,10 @@ width: 100%;
   width: 100%;
 }
 .product-card{
- cursor: pointer;
+  cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
- color: #324d67;
+  color: #324d67;
 
 }
 .product-card:hover{
@@ -114,7 +114,9 @@ width: 100%;
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+  width: 250px;
+  height: 250px;
+  background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -673,7 +675,7 @@ margin-top: 160px;
     z-index: 10000;
   }
   .desc{
-   bottom: 60px;
+    bottom: 60px;
   }
   .product-detail-container{
     flex-wrap: wrap;
@@ -684,7 +686,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
@@ -710,54 +712,54 @@ margin-top: 160px;
     margin: 20px;
   }
 
-.item-desc .flex{
-  width: 200px;
-}
-.top{
-  flex-wrap: wrap;
-  gap: 10px;
+  .item-desc .flex{
+    width: 200px;
+  }
+  .top{
+    flex-wrap: wrap;
+    gap: 10px;
 
 
-}
-.item-desc .bottom{
-  margin-top: 30px;
-}
-.flex h5{
-  font-size: 16px;
-   color: #324d67;
-}
-.flex h4{
-  font-size: 16px;
-   color: black;
-}
-.cart-bottom{
-  padding: 30px;
-}
+  }
+  .item-desc .bottom{
+    margin-top: 30px;
+  }
+  .flex h5{
+    font-size: 16px;
+    color: #324d67;
+  }
+  .flex h4{
+    font-size: 16px;
+    color: black;
+  }
+  .cart-bottom{
+    padding: 30px;
+  }
 
-.total h3{
-  font-size: 20px;
-}
-.track {
-  animation: marquee 10s linear infinite;
-  width: 550%;
-}
-.success-wrapper, .cancel-wrapper{
- 
-  min-height: 69vh;
-}
-.success, .cancel {
-   width: 370px;
-  margin-top: 100px;
-  padding: 20px;
-}
-.success{
-  height: 350px;
-}
-.success h2{
-  font-size: 17px;
-}
-.btn-container{
-  width: 300px;
-  margin: auto;
-}
+  .total h3{
+    font-size: 20px;
+  }
+  .track {
+    animation: marquee 10s linear infinite;
+    width: 550%;
+  }
+  .success-wrapper, .cancel-wrapper{
+  
+    min-height: 69vh;
+  }
+  .success, .cancel {
+    width: 370px;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .success{
+    height: 350px;
+  }
+  .success h2{
+    font-size: 17px;
+  }
+  .btn-container{
+    width: 300px;
+    margin: auto;
+  }
 }
